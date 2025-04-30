@@ -25,10 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Update to step 5
+      - name: Update to step 6
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 4
-          to_step: 5
+          from_step: 5
+          to_step: 6
           branch_name: staging-workflow
